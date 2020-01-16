@@ -1,0 +1,127 @@
+﻿.tab {
+    padding-top: 3%;
+    padding: 6%;
+    background: #fff;
+    width: 100%;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+}
+
+.tabs {
+    display: table;
+    position: static;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+}
+
+li {
+    float: right;
+    line-height: 38px;
+    overflow: hidden;
+    padding: 0;
+    position: static;
+}
+
+.tab a {
+    background-color: #e7f3fe;
+    border-bottom: 2px solid #fff;
+    color: #000;
+    font-weight: bold;
+    display: block;
+    letter-spacing: 0;
+    outline: none;
+    padding: 0 20px;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-bottom: 2px solid;
+}
+
+.tabs_item {
+    display: none;
+    padding: 30px 0;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.current a {
+    color: #000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    text-align: right;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+
+    table th, table td {
+        text-align: right;
+        padding: 12px;
+    }
+
+    table tr {
+        border-bottom: 1px solid #ddd;
+    }
+
+        table tr:hover {
+            background-color: #e7f3fe;
+            color: black;
+        }
+
+        table tr.header {
+            background-color: #e7f3fe;
+            color: black;
+        }
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #057ed5;
+    z-index: 9999;
+    border: 0;
+    font-size: 16px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 5px;
+    border-radius: 0;
+    font-family: Calibri;
+}
+
+    .navbar li a, .navbar .navbar-brand {
+        color: #fff !important;
+    }
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #000000 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
